@@ -1,6 +1,6 @@
 FROM nginx:alpine
 
-LABEL maintainer="Mahmoud Zalt <mahmoud@zalt.me>"
+LABEL maintainer='Mahmoud Zalt <mahmoud@zalt.me>'
 
 COPY nginx.conf /etc/nginx/
 
